@@ -18,3 +18,8 @@ for value in myDictionary.values():
 
 for key in myDictionary.keys():
     print(key)
+
+for key, value in myDictionary.items():
+    print(key, value)
+
+myNewDictionary = myDictionary.copy()
