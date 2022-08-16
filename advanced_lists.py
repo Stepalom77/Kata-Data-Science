@@ -1,11 +1,11 @@
 myList = [1,2,3,4,5,6,7,8]
 
-myList.append(9)
+myList.append(9) # add to end of the list
 myList.append(10)
-myList.insert(0,0)
-myList.remove(7)
-myList.pop()
-del myList[3]
+myList.insert(0,0) # add to specific index of list
+myList.remove(7) # remove specific element
+myList.pop() # remove last index
+del myList[3] # remove specific element
 
 # myList.clear()
 
@@ -17,6 +17,7 @@ print("FOR IN RANGE LOOP")
 for e in range(len(myList)):
     print(myList[e])
 #While loop
+print("While loop")
 itr = 0
 while itr < len(myList):
     print(myList[itr])
